@@ -1,0 +1,440 @@
+/*========================== start my framwork ============================*/
+
+body
+{
+    font-family: 'Poppins', sans-serif ;
+}
+.text-color
+{
+    color: #ec3237 !important ;
+}
+.item-color
+{
+    color: #999;
+}
+.services , .portfolio
+{
+    background-color: #f4f4f4;
+}
+.link-font
+{
+    font-size: 14px;
+}
+.heading-font
+{
+    font-size: 30px;
+}
+h2
+{
+    font-size: 35px;
+    color: #444;
+}
+h3 , h4 , h5
+{
+    color: #444;
+}
+.social a
+{
+    color: #777;
+}
+.social a:hover i
+{
+    color: #fff;
+    background-color: #ec3237;
+    border: 1px solid #ec3237;
+}
+.social i
+{
+    font-size: 20px;
+    padding: 9px 7px;
+    margin: 30px 5px 0;
+    border: 1px solid #999; 
+}
+.social .fa-facebook-f
+{
+    padding: 9px 14px;
+}
+.social .fa-twitter , .social .fa-github , .social .fa-behance , .social .fa-dribbble
+{
+    padding: 9px;
+}
+.button
+{
+    padding: 10px 25px;
+    background-color: #ec3237;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.button:hover
+{
+    background-color: #cc3237;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+ 
+/*=========================== end my framwork ============================*/
+/*============================ start header ==============================*/
+
+header
+{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+}
+header .overlay
+{
+    top: 0;
+    left: 0;
+    background-color: rgba(236, 51, 55, 0.7);
+}
+header .bg-dark
+{
+    background-color: #191919 !important ;
+}
+header nav .navbar-brand
+{
+    font-size: 18px;
+}
+header nav ul .active
+{
+    border-bottom: 2px solid #f25454 !important ; 
+}
+header nav ul li a
+{
+    color: #fff !important ;
+}
+header nav ul .active a
+{
+    color: #f25454 !important ;
+}
+header nav ul li:hover a
+{
+    color: #f25454 !important ;
+}
+header .caption 
+{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 555;
+}
+header .caption h1
+{
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-shadow: -1px 6px 5px #c62d32;
+}
+header .caption h5
+{
+    font-size: 24px;
+}
+header .caption a
+{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 23px;
+    margin-top: 20px;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+header .caption a:hover
+{
+    color: #ec3237;
+    background-color: #fff;
+}
+header .caption a i
+{
+    font-size: 8px;
+}
+header .icon 
+{
+    width: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -webkit-animation: icon 1s infinite alternate ease-in-out ;
+    animation: icon 1s infinite alternate ease-in-out ;
+}
+
+@-webkit-keyframes icon
+{
+    0%
+    {
+        bottom: 60px;
+    }
+    100%
+    {
+        bottom: 30px;
+    }
+}
+
+@keyframes icon
+{
+    0%
+    {
+        bottom: 50px;
+    }
+    100%
+    {
+        bottom: 30px;
+    }
+}
+
+/*============================= end header ===============================*/
+/*============================ start about ===============================*/
+
+.about .profile-data h5
+{
+    font-size: 18px;
+}
+.about .profile-info
+{
+    line-height: 1.65;
+}
+.about .progress
+{
+    height: .8rem !important;
+}
+.about .skills .skill
+{
+    left: 0;
+}
+.about .skills .skill-per
+{
+    right: 0;
+}
+.about .skills .skill:first-of-type , .about .skills .skill-per:nth-of-type(2)
+{
+    top: 70px;
+}
+.about .skills .skill:nth-of-type(3) , .about .skills .skill-per:nth-of-type(4)
+{
+    top: 130px;
+}
+.about .skills .skill:nth-of-type(5) , .about .skills .skill-per:nth-of-type(6)
+{
+    top: 190px;
+}
+.about .skills .skill:nth-of-type(7) , .about .skills .skill-per:nth-of-type(8)
+{
+    top: 250px;
+}
+.about .progress .progress-bar
+{
+    padding: 2px !important;
+    background-color: #ec3237 !important;
+}
+
+/*============================= end about ================================*/
+/*=========================== start services =============================*/
+
+.services .service
+{
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 3px #e9e9e9 , -1px -1px 3px #e9e9e9;
+    box-shadow: 1px 1px 3px #e9e9e9 , -1px -1px 3px #e9e9e9; 
+}
+.services .service i
+{
+    color: #777;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 12px;
+    background-color: #eee;
+}
+.services .service h4
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.services .service:hover i
+{
+    color: #fff;
+    background-color: #ec3237;
+}
+.services .service:hover h4
+{
+    color: #ec3237;
+}
+
+/*============================ end services ==============================*/
+/*============================= start info ===============================*/
+
+
+.info
+{
+    background-image: url(../images/project-counter.jpg);
+    background-size: cover;
+}
+.info .info-item
+{
+    border: 1px solid #444;
+}
+.info .info-item i
+{
+    font-size: 28px;
+}
+.info .info-item .icon
+{
+    font-weight: 100;
+}
+.info .info-item h2
+{
+    font-size: 40px;
+}
+.info .info-item h5
+{
+    font-size: 18px;
+}
+
+
+/*============================= end info ===============================*/
+/*========================== start portfolio ===========================*/
+
+.portfolio ul
+{
+    width: 38.5%;
+    padding-bottom: 30px;
+}
+.portfolio ul li
+{
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+.portfolio ul li.selected
+{
+    color: #fff;
+    border: 2px solid #ec3237;
+    background-color: #ec3237;
+}
+.portfolio ul li:not(.selected):hover 
+{
+    color: #ec3237;
+    border: 2px solid #ec3237;
+}
+.portfolio .card
+{
+    margin-bottom: 30px;
+}
+.portfolio .fa-search
+{
+    top:-15px;
+    left: 50%;
+    padding: 10px;
+    background-color: #000;
+    font-size: 14px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.portfolio h4
+{
+    font-size: 18px;
+}
+.portfolio .card:hover .fa-search
+{
+    background-color: #ec3237;
+}
+.portfolio .touch-btn
+{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/*============================= end portfolio ===============================*/
+/*============================ start testimonial ============================*/
+
+.testimonial
+{
+    background-image: url(../images/testimonial%201.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonial .carousel-inner .carousel-item
+{
+    padding: 0 5px  !important ;
+}
+.testimonial .carousel-inner .carousel-item .item
+{
+    padding: 10px 35px 20px;
+}
+.testimonial .carousel-inner .carousel-item .avatar img
+{
+    padding: .33rem  !important ;
+    background-color: #ec3237  !important ;
+    border: 1px solid #ec3237  !important ;
+    -webkit-transform: scale(.9 , .9);
+    transform: scale(.9 , .9);
+}
+.testimonial .carousel-inner .carousel-item h3
+{
+    font-size: 24px;
+}
+
+/*============================= end testimonial ===============================*/
+/*================================ start hire =================================*/
+
+.hire .contact ul
+{
+    border-bottom: 1px solid #f9f9f9;
+}
+.hire .contact ul li
+{
+    margin: 30px 0;
+    padding-left: 5px;
+}
+.hire .contact ul li a
+{
+    color: #c62d32;
+}
+.hire .contact .social i
+{
+    margin-top: 12px;
+}
+.hire form input , .hire form textarea
+{
+    border: 2px solid #ccc;
+}
+.hire form input::-webkit-input-placeholder , .hire form textarea::-webkit-input-placeholder
+{
+    color: #bbb;
+}
+.hire form input:-ms-input-placeholder , .hire form textarea:-ms-input-placeholder
+{
+    color: #bbb;
+}
+.hire form input::placeholder , .hire form textarea::placeholder
+{
+    color: #bbb;
+}
+.hire form button
+{
+    cursor: pointer;
+}
+
+/*================================= end hire ==================================*/
+/*=============================== start footer ================================*/
+
+footer
+{
+    padding: 32px 0;
+    border-top: 2px solid #f9f9f9;
+}
+footer p
+{
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+/*=============================== end footer ================================*/
